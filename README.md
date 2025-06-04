@@ -35,8 +35,8 @@ It provides **training** and **prediction** scripts suitable for **batch job sub
 On the **BU SCC** system, include the module directory and load the module:
 
 ```bash
-module use /projectnb/peaclab-mon/boztop/module_files
-module load qsub_rec/1.0.0
+module use /share/module.8/test
+module load qsub_rec/1.0
 ```
 
 Train the model, once after module is loaded.
