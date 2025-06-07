@@ -49,7 +49,7 @@ Train the model, once after module is loaded.
 To generate a new script with the recommended number of processors for your batch job:
 
 ```bash
-./sub_rec.py path_to_your_batch_job_file
+./qsub_rec.py path_to_your_batch_job_file
 ```
 A new script will be created in the same directory as your batch job file, with suggested resource requests based on the model prediction.
 
