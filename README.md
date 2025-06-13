@@ -42,14 +42,14 @@ module load qsub_rec/1.0
 Train the model, once after module is loaded.
 
 ```bash
-./train_rec.py
+train_rec.py
 ```
 
 ## 🔑 Usage
 To generate a new script with the recommended number of processors for your batch job:
 
 ```bash
-./qsub_rec.py path_to_your_batch_job_file
+qsub_rec.py
 ```
 A new script will be created in the same directory as your batch job file, with suggested resource requests based on the model prediction.
 
