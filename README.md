@@ -36,7 +36,7 @@ On the **BU SCC** system, include the module directory and load the module:
 
 ```bash
 module use /share/module.8/test
-module load qsub_rec/1.0
+module load qsub_rec/1.1
 ```
 
 Train the model, once after module is loaded.
